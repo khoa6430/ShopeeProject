@@ -1,0 +1,1202 @@
+.container {
+    display: block;
+    margin-top: 20px;
+    margin-left: 180px;
+    width: 1200px;
+}
+
+.row {
+    padding-top: 50px;
+    width: 1200px;
+}
+
+.col-sm-1 {
+    width: 480px;
+    height: 688px;
+}
+
+.col-sm-2 {
+    width: 600px;
+    height: 688px;
+    margin-left: 30px;
+}
+
+/* CSS OF COL1 */
+
+.slick-slide {
+    background: #3a8999;
+    color: white;
+    text-align: center;
+}
+
+.slider-x {
+    width: 500px;
+}
+
+.slider-nav {
+    width: 82px;
+    height: 82px;
+    background-color: red;
+}
+
+.slick-track {
+    margin-left: -350px;
+}
+
+.slick-slide:nth-child(odd) {
+    background: #e84a69;
+}
+
+/* .slider {
+   margin: 0 30px;
+  } */
+
+.spimg {
+    width: 450px;
+    height: 450px;
+    background-color: yellow;
+}
+
+.slick-list {
+    width: 450px;
+    height: 450px;
+}
+
+.prev {
+    margin-top: 24px;
+    margin-right: 150px;
+}
+
+.next {
+    /* margin-top:-450px; */
+    margin-left: 368px;
+    margin-top: 25px;
+}
+
+.slide2 {
+    display: flex;
+}
+
+.chiasemangxh{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 35px;
+  
+ 
+}
+.thcacmangxh{
+    display: flex;
+    border-right: 1px solid rgba(0,0,0,.05);
+    width: 180px;
+}
+.mangxhmess{
+    color: #15aabf;
+    margin-right: 5px;
+}
+.mangxhfb{
+   color:#3B5998 ;
+   margin-right: 5px;
+}
+.mangxhpinter{
+    color: #cb2027;
+    margin-right: 5px;
+}
+.mangxhtwitter{
+    color: #55ACEE;
+    margin-right: 5px;
+}
+.luotthichsp{
+    display: flex;
+    margin-left: 25px;
+}
+.chudathichsp{
+    font-size: 16px;
+    color: #222;
+    margin-left: 10px;
+}
+
+
+/* CSS COL 2 */
+
+.contentsp {
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-weight: 400;
+    margin: 0;
+    vertical-align: sub;
+    max-height: 3rem;
+    line-height: 1.5rem;
+    overflow: hidden;
+    max-width: 41.5625rem;
+    font-size: 1.25rem;
+    word-wrap: break-word;
+}
+
+.danhgiasp {
+    display: flex;
+}
+
+.danhgiaspsao {
+    -webkit-align-items: flex-end;
+    -moz-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    padding: 0 15px;
+    border-right: 1px solid rgba(0, 0, 0, .14);
+    display: flex;
+    width: 185px;
+    margin-top: 15px;
+}
+
+.sodanhgia {
+    font-size: 1rem;
+    color: #d0011b;
+    margin-right: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #d0011b;
+    width: 22.5px;
+    height: 24px;
+}
+
+.ratingstar {
+    margin-left: 10px;
+}
+
+.checked {
+    color: #d0011b;
+}
+
+.luotdanhgia {
+    -webkit-align-items: flex-end;
+    -moz-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    padding: 0 15px;
+    border-right: 1px solid rgba(0, 0, 0, .14);
+    display: flex;
+    width: 128px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.soluotdanhgia {
+    font-size: 1rem;
+    color: black;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    width: 22.5px;
+    height: 24px;
+}
+
+.chudanhgia {
+    margin-left: 6px;
+    font-size: .875rem;
+    color: #767676;
+    text-transform: capitalize;
+}
+
+.spluotban {
+    align-items: flex-end;
+    padding: 0 15px;
+    display: flex;
+    width: 128px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.khunggiatiensp {
+    margin-top: 25px;
+    background-color: #fafafa;
+    width: 665px;
+    height: 112px;
+}
+
+.khungtiensp1 {
+    display: flex;
+}
+
+.sotiendcgiam {
+    font-size: 1rem;
+    text-decoration: line-through;
+    color: #929292;
+    width: 79.4px;
+    height: 19.2px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.spgiatienchinh {
+    color: #d0011b;
+    font-size: 28px;
+    width: 148.4px;
+    height: 36px;
+    margin-left: 12px;
+    margin-top: 8px;
+    font-weight: 480;
+}
+
+.spphantramdcgiam {
+    margin-left: 15px;
+    font-size: .75rem;
+    width: 66.69px;
+    height: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #d0011b;
+    border-radius: 2px;
+    padding: 2px 4px;
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+    margin-top: 21px;
+}
+
+.khunggicungre {
+    display: flex;
+}
+
+.logogicungre {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.chugicungre {
+    color: #ee4d2d;
+    ;
+    font-size: .875rem;
+    margin-right: .625rem;
+    font-weight: 500;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+
+.chuspgiatot {
+    color: rgba(0, 0, 0, .54);
+    font-size: .75rem;
+    margin-top: -5px;
+    margin-left: 75px;
+}
+.khungminivoucher{
+    display: flex;
+    margin-top: 22px;
+    margin-left: 15px;
+}
+
+.minivoucherslabel {
+    color: #757575;
+    width: 110px;
+    text-transform: capitalize;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 15px;
+    font-weight: 480;
+    padding-left: 5px;
+}
+
+.temminivoucherdo {
+    cursor: default;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    background: rgba(208,1,27,.08);
+    padding: 3px 7px;
+    border: 0;
+    white-space: nowrap;
+    color: #d0011b;
+    font-weight: 480;
+    width: 81px;
+    height: 25px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.khunghangvanchuyen{
+    display: flex;
+    margin-top: 22px;
+    margin-left: 15px;
+}
+
+
+.spmpvanchuyen {
+    color: #222;
+    font-weight: 480;
+    margin-top: 0px;
+    margin-left: 1.875rem;
+    font-size: 14px;
+}
+
+.gRuynh {
+    color: rgba(0,0,0,.54);
+    font-weight: 480;
+    margin-top: .125rem;
+    margin-left: 39px;
+    font-size: 14px;
+}
+._1WYztm>.icon-free-shipping-line, ._1WYztm>.icon-shipping-airplane {
+    font-size: 1.25rem;
+    margin-left: -3px;
+    stroke: #000;
+    height: 20px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+._2KvfoN {
+    color: #636363;
+    width: 110px;
+    margin-right: 10px;
+    text-transform: capitalize;
+    margin-left: 39px;
+    margin-top: -23px;
+}
+
+#cactinhvn{
+    display: flex;
+    padding-left: 5px;
+    margin-left: 155px;
+    margin-top: -21.5px;
+}
+.dropdown-menu {
+    max-height: 180px;
+    overflow-y: auto;
+ 
+    width: 20px !important;
+}
+
+.tenphivanchuyen {
+    color: #636363;
+    width: 110px;
+    margin-left: 39px;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: block;
+    margin-left: 210px;
+    margin-top: -32px;
+
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 20px;
+    margin-top: -10px;
+   margin-left: -50px;
+  }
+  
+  /* Links inside the dropdown */
+.nhanhangphi1{ 
+    color: rgba(143, 142, 142, 0.979);
+} 
+.mpvanchuyenchu{
+    color:#ee2c4a;
+}
+.sotienphivc{
+    color: #636363;
+    margin-left: 160px;
+    margin-top: -20.5px;
+}
+
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+
+.khungslssp1{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+.spmuaslsp{
+    color: #636363;
+
+}
+
+/* <![CDATA[ */
+.buttons_added {
+    opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+    margin-left: 68px;
+    margin-top: -5px;
+}
+.is-form {
+    overflow:hidden;
+    position:relative;
+    background-color:#f9f9f9;
+    height:2.2rem;
+    width:1.9rem;
+    padding:0;
+    text-shadow:1px 1px 1px #fff;
+    border:1px solid #ddd;
+}
+.is-form:focus,.input-text:focus {
+    outline:none;
+}
+.is-form.minus {
+    border-radius:4px 0 0 4px;
+}
+.is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.input-qty {
+    background-color:#fff;
+    height:2.2rem;
+    text-align:center;
+    font-size:1rem;
+    display:inline-block;
+    vertical-align:top;
+    margin:0;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0;
+    padding:0;
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}
+/* ]]> */
+
+
+.slspcosan{
+    color: #636363;
+    margin-left: 35px;
+}
+.khungbuttonghmg{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.buttonthemgiohang{
+    background: rgba(208,1,27,.08);
+    border: red solid 1px;
+    color: #d0011b;
+    padding: 10px;
+}
+.buttonmuangay{
+    background-color: #d0011b;
+    border: red solid 1px;
+    color: white;
+    padding: 10px;
+    width: 197.61px;
+    height: 46px;
+    margin-left: 15px;
+}
+.khungtrahang{
+    display: flex;
+}
+.chu7ngay{
+    display: flex;
+    font-size: 20px;
+    color: #4a4a4a;
+    cursor: help;
+    font-weight: 400;
+    margin-left: 15px;
+    margin-top: 32px;
+    width: 200px;
+}
+.bi-shield-check{
+    color: #d0011b;
+    margin-right:10px
+}
+
+.khungnhabh{
+    display: flex;
+    width: 1200px;
+    margin-left: 178px;
+    background-color: white;
+    height: 130px;
+    margin-top: 10px;
+
+}
+.khunganhsx{
+    margin-top: 25px;
+    margin-left: 20px;
+    border-right: 1px solid rgba(0,0,0,.05);
+    width: 450px;
+    height: 95px;
+}
+
+.imgnhasx2{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+
+.overlay2 {
+    position: static; 
+    bottom: 0; 
+
+    color: #f1f1f1; 
+    width: 64px;
+    height: 16px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    margin-top: -38px;
+    margin-left: 6px;
+
+ }
+  
+.overlay2 {
+    opacity: 1;
+}
+.tennhasx1{
+    margin-left: 120px;
+    margin-top: -100px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(0,0,0,.87);
+   
+}
+
+.sxtgonline {
+    font-size: .875rem;
+    color: rgba(0,0,0,.54);
+    text-transform: capitalize;
+    margin-left: 120px;
+    margin-top: 1px;
+}
+.khungbuttonnhasx1{
+    display: flex;
+}
+
+
+.buttontrochuyen{
+    display: flex;
+    margin-left: 120px;
+    margin-top: 10px;
+    width: 120px;
+    height: 34px;
+    background: rgba(208,1,27,.08);
+    border: red solid 1px;
+    color: #d0011b;
+   font-size: 14px;
+   font-weight: 500;
+   
+}
+.shopee-svg-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    position: relative;
+    margin-top: 8px;
+    margin-left: 3px;
+    margin-right: 8px;
+}
+.buttonxemshop{
+    display: flex;
+    background: white;
+    width: 120px;
+    height: 34px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid rgba(0,0,0,.09);
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 3%);
+    color: #555;
+}
+.khungdgtlph{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+.khungdgtlph2{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.danhgiasx{
+    text-transform: capitalize;
+    color: rgba(0,0,0,.4);
+    margin-right: .625rem;  
+    font-size: 15px;
+}
+.sodanhsx{
+    color: #d0011b;;
+    font-size: 15px;
+    font-weight: 500;
+}
+.khungallin1{
+    display: flex;
+    margin-left: 61px;
+}
+.khungspvangdung{
+    width: 1000px;
+    height: 4000px;
+ 
+}
+
+.khungmtsp{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 120px;
+    width: 950px;
+    background-color: white;
+    height: 2750px;
+
+}
+
+.chuctsp1 {
+    display: block;
+    background: rgba(0,0,0,.02);
+
+    color: rgba(0,0,0,.87);
+    font-size: 1.125rem;
+    padding: .875rem;
+    text-transform: capitalize;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 900px;
+    height: 55px;
+}
+.khungchudanhmuc1{
+  
+    margin-top: 25px;
+    margin-left: 29.5px;
+
+}
+.dmctsp1{
+    display: flex;
+}
+
+.chudanhmucsp1 {
+    color: rgba(0,0,0,.4);
+    font-size: .875rem;
+    width: 6.25rem;
+    margin-right: 2.5rem;
+}
+.khungdmshopee12{
+    display: flex;
+}
+.chushopeexanh {
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    font-size: 15px;
+    color: #05a;
+}
+
+
+.mtchitietsp112 {
+
+    white-space: pre-wrap;
+    color: rgba(0,0,0,.8);
+    font-size: .875rem;
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    line-height: 1.875rem;
+
+    /* padding-left: -60px; */
+   
+    width:850px;
+    height: 1750px;
+
+    text-align:justify;
+    margin-top: -55px;
+}
+
+.motachitietsp113{
+    text-align:left;
+    margin-left: 5px;
+ 
+    background-color: white;
+}
+.khungngdungdanhgiasp{
+    margin-top: 50px;
+    margin-left: 120px;
+    width: 950px;
+    height: 1150px;
+    background-color: white;
+
+}
+.chudanhgiaspngd{
+    font-size: 1.125rem;
+    color: rgba(0,0,0,.87);
+    margin-bottom: 1em;
+    text-transform: capitalize;
+    margin-left: 23px;
+    padding-top: 25px;
+ 
+}
+.khungsaongdung {
+    background-color: #fffbf8;
+    min-height: 5rem;
+    border: 1px solid #f9ede5;
+    margin-bottom: 1rem;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 2px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1.875rem;
+    width: 850px;
+    height: 146px;
+    margin-left: 23px;
+}
+.chuso49{
+    margin-top: -25px;
+    color: #d0011b;
+    font-size: 30px;
+    margin-left: 7.5px;
+}
+.chutrensao{
+    color: #d0011b;
+    font-size: 18px;
+}
+.hang1button{
+   display: flex;
+    flex-wrap: wrap;
+    margin-top: -25px;
+    margin-left: 5px;
+    width: 655px;
+    height: 65px;
+
+
+}
+.buttonchutatca{
+    cursor: pointer;
+    height: 2rem;
+    line-height: 2rem;
+    min-width: 6.25rem;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.09);
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+
+    color: rgba(0,0,0,.8);
+    text-transform: capitalize;
+    border-radius: 2px;
+    margin-left: 25px;
+    
+}
+
+.buttonchutatca1{
+    cursor: pointer;
+    height: 2rem;
+    line-height: 2rem;
+    min-width: 6.25rem;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.09);
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    color: rgba(0,0,0,.8);
+    text-transform: capitalize;
+    border-radius: 2px;
+    margin-left: 5px;
+    font-size: 14px; 
+}
+.buttonchutatca2{
+    cursor: pointer;
+    height: 2rem;
+    line-height: 2rem;
+    min-width: 12.25rem;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.09);
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+ 
+    margin-top: 8px;
+    font-size: 14px;
+}
+.khungblnxkh{
+    display: flex;
+    margin-left: 39px;
+    margin-top: 45px;
+}
+
+.tendgngdung1{
+    display: flex;
+    flex-direction: column;
+}
+.khungcommentngdu1{
+    display: flex;
+}
+.shopee-product-rating__tag {
+    color: rgba(0,0,0,.4);
+    border: 1px solid rgba(0,0,0,.4);
+    border-radius: .9375rem;
+    padding: .25rem .625rem;
+    cursor: default;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    margin-right: 5px;
+    margin-bottom: .3125rem;
+    margin-top: 10px;
+}
+.theme--ofs {
+    --brand-primary-color: #d0011b;
+    --brand-primary-light-color: rgba(208,1,27,0.08);
+}
+.khunganhngcmm1{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.imgangngnx15{
+    width: 72px;
+    height: 72px;
+    margin-right: 10px;
+}
+
+.khungtunguserbl{
+    display: flex;
+    margin-top: 25px;
+}
+.shopee-product-rating__time {
+    margin-top: .75rem;
+    font-size: .75rem;
+    color: rgba(0,0,0,.54);
+    margin-left: 15px;
+}
+
+
+.fsheader{
+    display: flex;
+    margin-top: 880px;
+    margin-left: 80px;
+
+    width: 1300px;
+    height: 61px;
+}
+.imgvip{
+    padding-left: 16px;
+    width: 125px;
+    height: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    display: inline-block;
+    background: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/fb1088de81e42c4e538967ec12cb5caa.png) 50% no-repeat;
+    background-size: contain;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+.fskhungitem{
+ 
+    display: flex;
+    width: 200px;
+    height: 240px;
+    /* background-color: blueviolet; */
+}
+.fskhungitem2{
+    margin-left: 20px;
+    display: flex;
+    width: 200px;
+    height: 240px;
+    /* background-color: blueviolet; */
+}
+
+
+
+.image {
+    display: block;
+    width: 188px;
+    height: auto;
+    margin-left: 6.5px;
+  }
+  
+.overlay {
+    position: static; 
+    bottom: 0; 
+
+    color: #f1f1f1; 
+    width: 188px;
+    height: 188px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    margin-top: -185px;
+  
+    text-align: center;
+  }
+  
+.overlay {
+    opacity: 1;
+}
+.fscontain{
+    display: block;
+    width: 1300px;
+    height: 300px;
+}
+.fsgiam {
+   
+    background-color: rgba(255,212,36,.9);
+
+}
+
+.fssogiam {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    font-weight: 400;
+    line-height: .8125rem;
+    color: #ee4d2d;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.fschugiam{
+    font-size: 18px;
+    color: white;
+
+}
+.fsbordergiam{
+   
+    content: "";
+    width: 0;
+    height: 0;
+    left: 0;
+    bottom: -4px;
+    position: absolute;
+    border-color: transparent rgba(255,212,36,.9);
+    border-style: solid;
+    border-width: 0 18px 4px;
+    margin-top: 160px;
+    margin-left: 80px;
+}
+
+.fsgiatien{
+    /* background-color: black; */
+    font-size: 14px;
+    text-align: center;
+    color: #ee4d2d;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+
+.fsctgiatien{
+ 
+    font-size: 155%;
+    max-width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.fspsbar{
+    width: 156px;
+    height: 16px;
+    background: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/ac7f81d9ee062223753413ec98497a86.png) 0 100% no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 8px;
+    margin-top: 5px;
+ 
+}
+.fsfsbartext{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+.fsslide{
+    width: 1300px;
+    height: 300px;
+    /* background-color: darkcyan; */
+    margin-left: 350px;
+}
+
+.khungmagiamgia{
+    margin-top: 32px;
+    margin-left: 20px;
+    overflow: auto;
+    width: 230px;
+    height: 438px;
+   
+    border-bottom: pink solid 2px;
+}
+
+
+.khungitemvoucher119 {
+    display: flex;
+    width: 189px;
+    height: 92px;
+    background: rgba(208,1,27,.08);
+    border: red solid 1px;
+    color: #d0011b;
+    padding: 10px;
+    margin-top: 5px;
+    overflow: auto;
+}
+
+.chutrongvc12{
+    display: block;
+    width: 82px;
+    height: 27px;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: .75rem;
+    line-height: .875rem;
+    max-height: 1.875rem;
+}
+
+._6i2hvK {
+    margin-top: 5px;
+    display: block;
+    width: 62px;
+    color: #ff424f;
+    font-size: 11px;
+}
+
+._3N_ktJ {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 55px;
+    height: 28px;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #d0011b;
+    border: red solid 1px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+
+.khungbenphaingd121{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 250px;
+    margin-left: 85px;
+    height: 3825px;
+    margin-top: 18px;
+    
+}
+
+.khungsanbc120{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.item-card-special__name {
+    overflow: hidden;
+    word-wrap: break-word;
+    line-height: 1.125rem;
+    height: 2.1875rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    width: 170px;
+    height: 37px;
+}
+.item-card-special__name--special {
+    margin-bottom: 4px;
+    text-align: center;
+    line-height: 1rem;
+    height: 2rem;
+}
+
+.item-card-special__current-price {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #ee4d2d;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    max-width: 100%;
+    font-weight: 500;
+    margin-left: 12px;
+    padding-bottom: 25px;
+}
+.tungspbc13{
+    padding-top: 25px;
+    border-bottom: rgba(208,1,27,0.08) solid 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

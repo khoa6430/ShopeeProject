@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="../CSS/body.css" />
+    <link rel="stylesheet" href="../CSS/Footer.css" />
+    <!-- <link rel="stylesheet" href="../Header/header.css"> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body class="bg">
+    <div class="cart-background">
+      <div class="header-menu">
+        <div class="col-1"></div>
+        <div class="col-3 menu-left">
+          <a href="#">Kênh Người Bán | </a>
+          <a href="#">Tải Ứng Dụng | </a>
+          <a href="#">Kết Nối </a>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+
+        <div class="col-4"></div>
+        <div class="col-3 menu-right">
+          <a href="#"> <i class="far fa-bell"></i> Thông Báo </a>
+          <a href="#"> <i class="far fa-question-circle"></i> Hỗ Trợ </a>
+          <p><img src="../image/avt1.png" alt="logo" /> thien016</p>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <!-- p2 -->
+      <div class="header-logo-search">
+        <div class="col-1"></div>
+        <div class="col-10 logo-search">
+          <div class="cart-logo">
+            <a href="../HTML/body2.html">
+              <img src="../image/logoMain4.png" alt=""
+            /></a>
+            <div class="cart-title">Giỏ Hàng</div>
+          </div>
+          <div class="search">
+            <input type="text" placeholder="Gunmac sieu sale tu 1K" />
+            <button class="btn-search"><i class="fal fa-search"></i></button>
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+
+      <div class="freeship-title">
+        <div class="col-1"></div>
+        <div class="col-10 free-title">
+          <img src="../image/freeship.png" alt="logo" />
+          <p>
+            Nhấn vào mục Mã giảm giá ở cuối trang để được hưởng miễn phí vận
+            chuyển bạn nhé!
+          </p>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <!-- table -->
+      <div class="table-title">
+        <div class="col-1"></div>
+        <div class="col-10 table-box">
+          <table class="table table-top">
+            <!-- <thead> -->
+            <tr>
+              <th scope="col">
+                <input type="checkbox" class="checkbox" />
+              </th>
+              <th scope="col" class="name-product">Sản Phẩm</th>
+              <th scope="col">Đơn Giá</th>
+              <th scope="col">Số Lượng</th>
+              <th scope="col">Số Tiền</th>
+              <th scope="col">Thao Tác</th>
+            </tr>
+
+            <!-- </thead> -->
+          </table>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <!-- table main -->
+      <div class="table-main">
+        <div class="col-1"></div>
+        <div class="col-10">
+          <table class="table">
+            <tr>
+              <th scope="col" class="shop-name">
+                <input type="checkbox" class="checkbox" />
+                <img src="../image/product/yeuthich.jpg" alt="logo" />
+                <p>MÔ HÌNH 24 ( 24 GROUP )</p>
+              </th>
+            </tr>
+            <tr>
+              <th scope="col" class="product">
+                <input type="checkbox" class="checkbox" />
+                <img src="../image/product/product1.jpg" alt="logo" />
+                <div class="name-product2">
+                  <p>[RẺ VÔ ĐỊCH] Mô hình cao cấp Son Goku ...</p>
+                  <img src="../image/product/freeship.jpg" alt="logo" />
+                </div>
+              </th>
+              <th scope="col" class="price">
+                <p style="color: lightslategray">300.000</p>
+                200.000
+              </th>
+              <th scope="col">
+                <div class="quanlity">
+                  <button id="btn+" onclick="Add()">+</button>
+                  <input id="inpput" type="text" value="1" />
+                  <button id="btn-" onclick="Minus()">-</button>
+                </div>
+              </th>
+              <th
+                scope="col"
+                class="money"
+                style="width: 160px !important; text-align: center"
+              >
+                <p id="p-money">200.000</p>
+              </th>
+              <th
+                scope="col"
+                class="action"
+                style="width: 130px !important; text-align: center"
+              >
+                <a href="#" style="color: black">Xóa</a> <br />
+                <a href="#" style="color: orangered"
+                  >Tìm sản phẩm <br />
+                  tương tự</a
+                >
+              </th>
+            </tr>
+            <tr>
+              <th scope="col" class="freeship2">
+                <img src="../image/freeship.png" alt="logo" />
+                <p>
+                  Nhấn vào mục Mã giảm giá ở cuối trang để được hưởng miễn phí
+                  vận chuyển
+                </p>
+              </th>
+            </tr>
+          </table>
+          <br />
+          <table class="table money-box">
+            <tr>
+              <th scope="col" class="vouchers">
+                <i class="fas fa-money-bill-alt"> Shopee Voucher</i>
+
+                <p>Chọn hoặc nhập mã</p>
+              </th>
+            </tr>
+            <tr>
+              <th scope="col" class="voucher">
+                <i class="fab fa-bitcoin"> Shopee xu</i>
+                <p>Không thể sử dụng xu</p>
+                <p style="margin-left: 170px; margin-right: 15px">0</p>
+              </th>
+            </tr>
+
+            <tr>
+              <th scope="col" class="buy-btn">
+                <p
+                  id="total"
+                  style="font-size: 16px; color: #222222; line-height: 19px"
+                >
+                  Tổng thanh toán ( 1 sản phẩm):
+                </p>
+                <p
+                  id="total-money"
+                  style="font-size: 1.8rem; color: #ee4d2d; margin: 0 5px"
+                >
+                  200.000
+                </p>
+                <button
+                  style="
+                    background-color: #ee4d2d;
+                    color: white;
+                    width: 200px;
+                    height: 40px;
+                    border: none;
+                    margin-left: 10px;
+                  "
+                >
+                  Mua hàng
+                </button>
+              </th>
+            </tr>
+          </table>
+        </div>
+        <div class="col-1"></div>
+      </div>
+
+      <br />
+      <!-- <footer> -->
+      <div class="footer">
+        <div class="container-top">
+          <hr />
+          <div class="test">
+            <div class="col-1"></div>
+            <div class="col-2">
+              <p>Chăm Sóc Khách Hàng</p>
+              <ul class="list-footer">
+                <li>Trung Tâm Trợ giúp</li>
+                <li>Shopee blog</li>
+                <li>shopee mall</li>
+                <li>hướng dẫn mua hàng</li>
+                <li>hướng dẫn bán hàng</li>
+                <li>thanh toán</li>
+                <li>shopee xu</li>
+                <li>vận chuyển</li>
+                <li>trả hàng & hoàn tiền</li>
+                <li>Chăm sóc khách hàng</li>
+                <li>chính sách bảo hành</li>
+              </ul>
+            </div>
+            <div class="col-2">
+              <p>Về Shopee</p>
+              <ul class="list-footer">
+                <li>giới thiệu về shopee việt nam</li>
+                <li>tuyển dụng</li>
+                <li>điều khoản shopee</li>
+                <li>chính sách bảo mật</li>
+                <li>chính hãng</li>
+                <li>kênh người bán</li>
+                <li>flash sales</li>
+                <li>chương trình tiếp thị liên kết shopee</li>
+                <li>liên hệ với truyền thông</li>
+              </ul>
+            </div>
+            <div class="col-2">
+              <p>Thanh Toán</p>
+              <img class="img1" src="../image/thanhToan.jpg" alt="photo" />
+              <p>ĐƠN VỊ VẬN CHUYỂN</p>
+              <img class="img2" src="../image/vanChuyen.jpg" alt="photo" />
+            </div>
+            <div class="col-2">
+              <p>Theo Dõi Chúng Tôi Trên</p>
+              <ul class="list-footer">
+                <li>
+                  <i class="fab fa-facebook"> FaceBook</i>
+                </li>
+                <li>
+                  <i class="fab fa-instagram"> Instagram</i>
+                </li>
+                <li>
+                  <i class="fab fa-linkedin"> Linkedln</i>
+                </li>
+              </ul>
+            </div>
+            <div class="col-2">
+              <p>Tải Ứng Dụng Shopee Ngay Thôi</p>
+              <img src="../image/app.jpg" alt="photo" />
+            </div>
+            <div class="col-1"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="container-middle">
+          <div class="col-1"></div>
+          <div class="col-3">
+            <p>© 2021 Shopee. Tất cả các quyền được bảo lưu.</p>
+          </div>
+          <div class="col-7">
+            <ul class="list-countries">
+              <li>Quốc gia & Khu vực:</li>
+              <li>Singapore</li>
+              <li>Indonesia</li>
+              <li>Đài Loan</li>
+              <li>Thái Lan</li>
+              <li>Malaysia</li>
+              <li>Việt Nam</li>
+              <li>Philippines</li>
+              <li>Brazil</li>
+              <li>Mexico</li>
+              <li>Columbia</li>
+              <li>Chile</li>
+            </ul>
+          </div>
+          <div class="col-1"></div>
+        </div>
+        <div class="container-bottom">
+          <div class="container-bottom-main">
+            <div class="box">
+              <div class="box1">
+                <div class="col-2"></div>
+                <div class="col-2">
+                  <a href="#">CHÍNH SÁCH BẢO MẬT </a>
+                </div>
+                <div class="col-2">
+                  <a href="#">QUY CHẾ HOẠT ĐỘNG</a>
+                </div>
+                <div class="col-2">
+                  <a href="#">CHÍNH SÁCH VẬN CHUYỂN</a>
+                </div>
+                <div class="col-4">
+                  <a href="#">CHÍNH SÁCH TRẢ HÀNG VÀ HOÀN TIỀN</a>
+                </div>
+                <div class="col-1"></div>
+              </div>
+              <div class="box2">
+                <img src="../image/check.jpg" alt="photo" class="center" />
+              </div>
+              <div class="box3">
+                <p>
+                  Địa chỉ: Tầng 4-5-6, Tòa nhà Capital Place, số 29 đường Liễu
+                  Giai, Phường Ngọc Khánh, Quận Ba Đình, Thành phố Hà Nội, Việt
+                  Nam. Tổng đài hỗ trợ: 19001221 - Email: cskh@hotro.shopee.vn
+                </p>
+                <p>
+                  Chịu Trách Nhiệm Quản Lý Nội Dung: Nguyễn Đức Trí - Điện thoại
+                  liên hệ: 024 73081221 (ext 4678)
+                </p>
+                <p>
+                  Mã số doanh nghiệp: 0106773786 do Sở Kế hoạch & Đầu tư TP Hà
+                  Nội cấp lần đầu ngày 10/02/2015
+                </p>
+                <p>© 2015 - Bản quyền thuộc về Công ty TNHH Shopee</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skinny-banner">
+          <img src="../image/test.png" alt="logo" />
+        </div>
+        <div class="chat-box" id="chat-box" onclick="chat()">
+          <i class="fal fa-comments-alt"> Chat </i>
+          <div class="number">2</div>
+
+          <div class="chat-main" id="chat-main">
+            <div class="col chat-title">
+              <p>Chat (2)</p>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+
+            <div class="search-chat">
+              <input type="text" placeholder="🔍 Tìm theo tên" />
+            </div>
+
+            <div>
+              <div class="chat">
+                <i class="fas fa-user-circle"></i>
+                <div>
+                  <b>Shop abc</b>
+                  <p>Xin chào bạn...</p>
+                  <p style="font-size: 10px">8 Th3</p>
+                </div>
+              </div>
+              <div class="chat">
+                <i class="fas fa-user-circle"></i>
+                <div>
+                  <b>Khoa Lê</b>
+                  <p>Hello...</p>
+                  <p style="font-size: 10px">10 Th8</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

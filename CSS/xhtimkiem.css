@@ -1,0 +1,76 @@
+.xh-header{
+    display: flex;
+    font-size: 16px;
+    color: rgba(0,0,0,.54);
+    font-weight: 400;
+    background: #fff;
+    height: 3.75rem;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    padding: 0 1.25rem;
+    margin-top: 20px;
+    margin-left: 168px;
+    width: 1197px;
+   
+  
+}
+.xh-container{
+    display: flex;
+    -webkit-flex: 0 1 auto;
+    -moz-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 1180px;
+    background-color: white;
+    margin-left: 168px;
+    height: 110px;
+}
+
+.xhtenitem{ 
+    margin-top: 15px;
+    width: 129.44px;
+    height: 100px;
+    margin-left: 10px;
+   
+ 
+}
+.xhtenitem2{
+    margin-top: 15px;
+    width: 129.44px;
+    height: 100px;
+    margin-left: 20px;
+ 
+}
+.xhtenct{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #222;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.xhslsp {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: .3125rem;
+    color: #757575;
+    font-size: .8125rem;
+}
+.xhhinhitem{
+    width: 99.56px;
+    
+    display: block;
+ 
+    height: 99.56px;
+    background-image: url("https://cf.shopee.vn/file/96856531cf05f31d667d1ef7cf9f0672"); 
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    border-right: 1px solid rgba(0,0,0,.05);
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   
+    margin-left: 10px;
+}
+

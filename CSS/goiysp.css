@@ -1,0 +1,245 @@
+.container11 {
+    display: flex;
+    margin-top: 60px;
+    height: 61px;
+    width: 1269px;
+    margin-left: 169px;
+    /* background-color: red; */
+    flex-wrap: wrap;
+    color: rgb(238, 77, 45);
+
+    flex-direction: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: white;
+
+}
+
+.thanh {
+    display: block;
+    width: 215.6px;
+    height: 4px;
+    background-color: rgb(238, 77, 45);
+    margin-top: 14px;
+    margin-left: -30px;
+}
+
+
+/*  BOOTSTRAP 5 CONTAINER  */
+.khunggy-container {
+    display: flex;
+    margin-top: 2px;
+    height: 900px;
+    width: 1300px;
+    margin-left: 168px;
+    /* background-color: red; */
+    flex-wrap: wrap;
+
+    -webkit-flex-wrap: wrap;
+    background-color: #f5f5f5;
+}
+
+.block-nd {
+    margin-top: 2px;
+    display: block;
+    width: 195px;
+    height: 295px;
+    margin-right: 20px;
+    margin-bottom: 70px;
+    background-color: white;
+
+}
+
+.block-nd2 {
+    margin-top: -290px;
+    display: block;
+    width: 195px;
+    height: 295px;
+    margin-right: 20px;
+    margin-bottom: 70px;
+    background-color: white;
+}
+
+.img-container {
+    height: 188px;
+    width: 188px;
+
+}
+
+
+
+.image {
+    display: block;
+    width: 188px;
+    height: auto;
+}
+
+.overlay {
+    position: static;
+    bottom: 0;
+
+    color: #f1f1f1;
+    width: 188px;
+    height: 188px;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    margin-top: -235px;
+    margin-top: -217px;
+    text-align: center;
+}
+
+.khunggy-container .overlay {
+    opacity: 1;
+}
+
+.ten-sp {
+    font-size: .75rem;
+    line-height: .875rem;
+    word-wrap: break-word;
+    overflow: hidden;
+
+
+
+    display: inline-block;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin-top: -15px;
+    padding-left: 13px;
+    padding-right: 20px;
+
+}
+
+/* GIẢM GIÁ */
+.sold {
+    display: block;
+    width: 50.35px;
+    height: 16px;
+    color: white;
+    background-color: rgb(246, 145, 19);
+    font-size: 10px;
+    text-align: center;
+    margin-top: .3125rem;
+    margin-left: 11px;
+    font-size: 12px;
+}
+
+.donvi-d2 {
+    font-size: .75rem;
+    color: white;
+}
+
+._2NfTth {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: .3125rem;
+    margin-left: 11px;
+    font-size: 12px;
+}
+
+._2DRZW {
+    width: .25rem;
+    height: 1rem;
+    position: absolute;
+    top: 0;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+._1FKkT {
+    line-height: 1rem;
+    height: 1rem;
+    margin: 0 .1875rem;
+    padding: 0 .0625rem;
+    padding: 0 calc(var(--ns-a, .25rem) - .1875rem);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    z-index: 1;
+}
+
+.tien-ban {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1rem;
+    color: #ee4d2d;
+    margin-left: 13px;
+    margin-top: 5px;
+}
+
+.da-ban {
+    color: rgba(0, 0, 0, .54);
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1.5rem;
+
+
+    color: rgba(0, 0, 0, .87);
+    margin-left: .3125rem;
+    font-size: .75rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 20px;
+}
+
+.da-ban2 {
+    color: rgba(0, 0, 0, .54);
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1.5rem;
+
+
+    color: rgba(0, 0, 0, .87);
+    margin-left: .3125rem;
+    font-size: .75rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 40px;
+}
+
+.donvi-d {
+    font-size: .75rem;
+    color: #ee4d2d;
+}
+
+/* a{
+    all: unset;
+   
+}
+
+a:hover 
+{
+    all: unset;
+}
+
+a:focus, a:active {
+    all: unset;
+} */
